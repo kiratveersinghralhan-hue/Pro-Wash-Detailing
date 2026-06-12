@@ -1,1 +1,1 @@
-console.log('Pro Wash Premium Site Ready');
+console.log('Pro Wash V2');
