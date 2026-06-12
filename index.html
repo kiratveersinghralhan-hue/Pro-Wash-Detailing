@@ -1,37 +1,42 @@
 <!DOCTYPE html>
-<html lang='en'>
+<html lang="en">
 <head>
-<meta charset='UTF-8'>
-<meta name='viewport' content='width=device-width,initial-scale=1'>
-<title>Pro Wash Detailing Patiala</title>
-<link rel='stylesheet' href='style.css'>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>Pro Wash Detailing Premium</title>
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
-<nav class="nav glass">
-<div class="logo">PRO WASH</div>
-<div class="menu">
-<a href="#services">Services</a>
-<a href="#gallery">Gallery</a>
-<a href="#booking">Book</a>
+<div id="loader">
+  <img src="logo.svg" class="loader-logo">
+  <h1>PRO WASH DETAILING</h1>
 </div>
+
+<nav class="glass nav">
+  <img src="logo.svg" class="nav-logo">
+  <div>
+    <a href="#services">Services</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#booking">Booking</a>
+  </div>
 </nav>
 
-<section class="hero">
-<div class="overlay"></div>
-<div class="hero-content">
-<h1>Luxury Car Detailing Studio</h1>
-<p>PPF • Ceramic 9H/10H • Graphene • Premium Wash</p>
-<a href="#booking" class="btn">Book Slot</a>
-</div>
+<header class="hero">
+  <div class="overlay"></div>
+  <div class="hero-content reveal">
+    <h1>Luxury Automotive Protection</h1>
+    <p>PPF • Ceramic • Graphene • Premium Detailing</p>
+    <a href="#booking" class="btn">Book Now</a>
+  </div>
+</header>
+
+<section class="stats reveal">
+<div><h2 data-count="5000">0</h2><span>Cars Detailed</span></div>
+<div><h2 data-count="1000">0</h2><span>Ceramic Coatings</span></div>
+<div><h2 data-count="800">0</h2><span>PPF Installs</span></div>
 </section>
 
-<section class="stats">
-<div><h2>5000+</h2><span>Cars Detailed</span></div>
-<div><h2>1000+</h2><span>Ceramic Coatings</span></div>
-<div><h2>800+</h2><span>PPF Installations</span></div>
-</section>
-
-<section id="services">
+<section id="services" class="reveal">
 <h2>Premium Services</h2>
 <div class="grid">
 <div class="card">Paint Protection Film</div>
@@ -43,39 +48,28 @@
 </div>
 </section>
 
-<section id="gallery">
-<h2>Showcase Gallery</h2>
+<section id="gallery" class="reveal">
+<h2>Gallery Showcase</h2>
 <div class="grid">
-<div class="card">Before / After</div>
-<div class="card">Ceramic Finish</div>
-<div class="card">PPF Installation</div>
+<img src="assets/sample1.svg">
+<img src="assets/sample2.svg">
+<img src="assets/sample3.svg">
 </div>
 </section>
 
-<section id="booking">
+<section id="booking" class="reveal">
 <h2>Book Appointment</h2>
-<form action="https://formspree.io/f/REPLACE_WITH_FORM_ID" method="POST">
-<input name="name" placeholder="Full Name" required>
-<input name="phone" placeholder="Phone Number" required>
-<input name="vehicle" placeholder="Vehicle">
+<form action="https://formspree.io/f/REPLACE_FORM_ID" method="POST">
+<input placeholder="Name" name="name" required>
+<input placeholder="Phone" name="phone" required>
 <select name="service">
-<option>PPF</option>
-<option>Ceramic Coating</option>
-<option>Graphene Coating</option>
-<option>Premium Wash</option>
+<option>PPF</option><option>Ceramic</option><option>Graphene</option>
 </select>
-<textarea name="message" placeholder="Message"></textarea>
-<button type="submit">Send Booking Request</button>
+<button>Send Booking Request</button>
 </form>
-
-<a class="wa" target="_blank"
-href="https://wa.me/919216050158?text=Hello%20Pro%20Wash%20Detailing,%20I%20want%20to%20book%20a%20slot.%20Name:%20%20Vehicle:%20%20Service:%20%20Preferred%20Date:%20">
-Book via WhatsApp
-</a>
+<a class="btn" target="_blank" href="https://wa.me/919216050158?text=Hello%20Pro%20Wash%20Detailing,%20I%20want%20to%20book%20a%20slot.">WhatsApp Booking</a>
 </section>
 
-<footer>
-<p>Shop No. 15, Old Sullar Rd, Patiala • +91 92160 50158</p>
-</footer>
+<script src="script.js"></script>
 </body>
 </html>
